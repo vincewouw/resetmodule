@@ -8,7 +8,7 @@ class ResetButton(models.Model):
     
     def reset_database(self):
         try:
-            os.system('su - postgres  -c "sh resetDemo.sh"')
+            os.system('sh resetDemo.sh')
         except:
             raise Exception("Reset function failed")
 
