@@ -19,7 +19,7 @@
 
         <menuitem id="menu_reset_database"
                   name="Reset Database"
-                  sequence="36"
+                  sequence="3"
                   action="action_reset_database"
         />
     </data>
