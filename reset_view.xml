@@ -15,7 +15,7 @@
             </field>
         </record>
 
-        <act_window id="action_reset_database" name="Reset Database" res_model="reset.button"/>
+        <act_window id="action_reset_database" name="Reset Database" res_model="reset.button" view_mode="form"/>
 
         <menuitem id="menu_reset_database"
                   name="Reset Database"
